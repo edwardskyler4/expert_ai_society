@@ -1,0 +1,18 @@
+Verification performed during project creation:
+
+- Python syntax parsed successfully for all five Python files.
+- All 52 demonstration conversations passed data validation.
+- Split: 44 training conversations and 8 validation conversations.
+- Longest demonstration input: 108 tokens (default context: 256 tokens).
+- Eight data tests passed.
+- Six PyTorch model tests were skipped because PyTorch was not installed.
+- Installation of the CPU PyTorch package failed in the creation environment.
+- Tensor computation, training, checkpoint loading, and generation have not
+  been executed here. No trained checkpoint is included.
+
+After installing PyTorch, run:
+  python -m unittest -v
+  python train.py --epochs 200
+  python chat.py --checkpoint checkpoints/best.pt
+
+A full verification should run all fourteen tests without skips.

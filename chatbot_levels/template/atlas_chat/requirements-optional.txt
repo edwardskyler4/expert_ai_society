@@ -1,0 +1,2 @@
+# Only required for PDF extraction. The core app needs no pip installation.
+pypdf>=5,<7

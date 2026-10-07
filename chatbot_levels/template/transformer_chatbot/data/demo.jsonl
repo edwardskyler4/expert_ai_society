@@ -1,0 +1,52 @@
+{"messages": [{"role": "user", "content": "Hello!"}, {"role": "assistant", "content": "Hello! How can I help?"}]}
+{"messages": [{"role": "user", "content": "Hi there."}, {"role": "assistant", "content": "Hi! What would you like to discuss?"}]}
+{"messages": [{"role": "user", "content": "Good morning."}, {"role": "assistant", "content": "Good morning!"}]}
+{"messages": [{"role": "user", "content": "Good evening."}, {"role": "assistant", "content": "Good evening!"}]}
+{"messages": [{"role": "user", "content": "What is your name?"}, {"role": "assistant", "content": "I am ByteBot, a small Transformer chatbot."}]}
+{"messages": [{"role": "user", "content": "Who are you?"}, {"role": "assistant", "content": "I am ByteBot, an educational chatbot built with PyTorch."}]}
+{"messages": [{"role": "user", "content": "Can you introduce yourself?"}, {"role": "assistant", "content": "I am ByteBot. I generate text one token at a time."}]}
+{"messages": [{"role": "user", "content": "What can you do?"}, {"role": "assistant", "content": "I can practice short conversations about topics in my training data."}]}
+{"messages": [{"role": "user", "content": "Are you a human?"}, {"role": "assistant", "content": "No. I am a small machine learning model."}]}
+{"messages": [{"role": "user", "content": "Thank you."}, {"role": "assistant", "content": "You are welcome!"}]}
+{"messages": [{"role": "user", "content": "Thanks for your help."}, {"role": "assistant", "content": "Happy to help!"}]}
+{"messages": [{"role": "user", "content": "Goodbye."}, {"role": "assistant", "content": "Goodbye!"}]}
+{"messages": [{"role": "user", "content": "See you later."}, {"role": "assistant", "content": "See you later!"}]}
+{"messages": [{"role": "user", "content": "What is Python?"}, {"role": "assistant", "content": "Python is a programming language."}]}
+{"messages": [{"role": "user", "content": "What is PyTorch?"}, {"role": "assistant", "content": "PyTorch is a library for working with tensors and training neural networks."}]}
+{"messages": [{"role": "user", "content": "What is a tensor?"}, {"role": "assistant", "content": "A tensor is a multidimensional array of numbers."}]}
+{"messages": [{"role": "user", "content": "What is a neural network?"}, {"role": "assistant", "content": "A neural network learns patterns by adjusting numerical weights."}]}
+{"messages": [{"role": "user", "content": "What is training?"}, {"role": "assistant", "content": "Training adjusts model weights to reduce errors on examples."}]}
+{"messages": [{"role": "user", "content": "What is a loss function?"}, {"role": "assistant", "content": "A loss function measures how far predictions are from their targets."}]}
+{"messages": [{"role": "user", "content": "What is a gradient?"}, {"role": "assistant", "content": "A gradient describes how changing a parameter changes the loss."}]}
+{"messages": [{"role": "user", "content": "What is a token?"}, {"role": "assistant", "content": "A token is a unit of text that a model processes."}]}
+{"messages": [{"role": "user", "content": "What is attention?"}, {"role": "assistant", "content": "Attention lets a token use information from other tokens in its context."}]}
+{"messages": [{"role": "user", "content": "What is a Transformer?"}, {"role": "assistant", "content": "A Transformer uses attention to process sequences of tokens."}]}
+{"messages": [{"role": "user", "content": "What is causal attention?"}, {"role": "assistant", "content": "Causal attention lets a token attend to earlier positions but not future ones."}]}
+{"messages": [{"role": "user", "content": "What is an embedding?"}, {"role": "assistant", "content": "An embedding is a learned vector representing a token."}]}
+{"messages": [{"role": "user", "content": "What is a checkpoint?"}, {"role": "assistant", "content": "A checkpoint stores model weights so they can be loaded later."}]}
+{"messages": [{"role": "user", "content": "What is validation?"}, {"role": "assistant", "content": "Validation evaluates a model on examples excluded from weight updates."}]}
+{"messages": [{"role": "user", "content": "What is overfitting?"}, {"role": "assistant", "content": "Overfitting happens when a model memorizes training examples and generalizes poorly."}]}
+{"messages": [{"role": "user", "content": "What is a Python list?"}, {"role": "assistant", "content": "A Python list is an ordered, mutable collection."}]}
+{"messages": [{"role": "user", "content": "What is a function?"}, {"role": "assistant", "content": "A function is a reusable block of code."}]}
+{"messages": [{"role": "user", "content": "What is a loop?"}, {"role": "assistant", "content": "A loop repeats a block of code."}]}
+{"messages": [{"role": "user", "content": "What is a variable?"}, {"role": "assistant", "content": "A variable associates a name with a value."}]}
+{"messages": [{"role": "user", "content": "What is a dictionary?"}, {"role": "assistant", "content": "A dictionary maps keys to values."}]}
+{"messages": [{"role": "user", "content": "What is a boolean?"}, {"role": "assistant", "content": "A boolean is a value that is either true or false."}]}
+{"messages": [{"role": "user", "content": "What is an API?"}, {"role": "assistant", "content": "An API defines how software components communicate."}]}
+{"messages": [{"role": "user", "content": "What is an HTTP request?"}, {"role": "assistant", "content": "An HTTP request is a message a client sends to a server."}]}
+{"messages": [{"role": "user", "content": "What is a server?"}, {"role": "assistant", "content": "A server handles requests from clients."}]}
+{"messages": [{"role": "user", "content": "What is JavaScript?"}, {"role": "assistant", "content": "JavaScript is a programming language used in browsers and other runtimes."}]}
+{"messages": [{"role": "user", "content": "What is Rust?"}, {"role": "assistant", "content": "Rust is a programming language focused on performance and memory safety."}]}
+{"messages": [{"role": "user", "content": "What is HTML?"}, {"role": "assistant", "content": "HTML describes the structure of a web page."}]}
+{"messages": [{"role": "user", "content": "What is CSS?"}, {"role": "assistant", "content": "CSS controls the appearance of a web page."}]}
+{"messages": [{"role": "user", "content": "What is Git?"}, {"role": "assistant", "content": "Git tracks changes to files in a repository."}]}
+{"messages": [{"role": "user", "content": "What is a database?"}, {"role": "assistant", "content": "A database stores and organizes data."}]}
+{"messages": [{"role": "user", "content": "What is debugging?"}, {"role": "assistant", "content": "Debugging means finding and fixing problems in a program."}]}
+{"messages": [{"role": "user", "content": "My name is Kyler."}, {"role": "assistant", "content": "Hello, Kyler!"}, {"role": "user", "content": "What is my name?"}, {"role": "assistant", "content": "Your name is Kyler."}]}
+{"messages": [{"role": "user", "content": "My name is Maya."}, {"role": "assistant", "content": "Hello, Maya!"}, {"role": "user", "content": "What is my name?"}, {"role": "assistant", "content": "Your name is Maya."}]}
+{"messages": [{"role": "user", "content": "My name is Sam."}, {"role": "assistant", "content": "Hello, Sam!"}, {"role": "user", "content": "What is my name?"}, {"role": "assistant", "content": "Your name is Sam."}]}
+{"messages": [{"role": "user", "content": "My name is Alex."}, {"role": "assistant", "content": "Hello, Alex!"}, {"role": "user", "content": "What is my name?"}, {"role": "assistant", "content": "Your name is Alex."}]}
+{"messages": [{"role": "user", "content": "My favorite color is blue."}, {"role": "assistant", "content": "You like blue."}, {"role": "user", "content": "What color do I like?"}, {"role": "assistant", "content": "You like blue."}]}
+{"messages": [{"role": "user", "content": "My favorite color is green."}, {"role": "assistant", "content": "You like green."}, {"role": "user", "content": "What color do I like?"}, {"role": "assistant", "content": "You like green."}]}
+{"messages": [{"role": "user", "content": "My favorite color is red."}, {"role": "assistant", "content": "You like red."}, {"role": "user", "content": "What color do I like?"}, {"role": "assistant", "content": "You like red."}]}
+{"messages": [{"role": "user", "content": "My favorite color is purple."}, {"role": "assistant", "content": "You like purple."}, {"role": "user", "content": "What color do I like?"}, {"role": "assistant", "content": "You like purple."}]}
