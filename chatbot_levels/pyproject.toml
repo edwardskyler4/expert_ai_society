@@ -1,0 +1,21 @@
+[project]
+name = "chatbot-levels"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Kyler Edwards", email = "edwardskyler4@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pip>=26.2.1",
+    "torch>=2.14.1",
+    "torchvision>=0.29.1",
+]
+
+[project.scripts]
+chatbot-levels = "chatbot_levels:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
