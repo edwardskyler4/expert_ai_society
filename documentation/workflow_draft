@@ -1,0 +1,19 @@
+flowchart TD
+Start([User runs CLI / git ai]) --> Check{Staged Changes Exist?}
+
+
+
+Check -->|No| Warn[Display Warning: Run `git add` first] --> End([Exit])
+Check -->|Yes| Extract[1. Git Diff Extractor]
+Extract --> Sanitize[2. Sanitizer & Token Manager]
+Sanitize -->|Filter lockfiles, check size/secrets| BuildPrompt[3. Prompt Builder]
+BuildPrompt --> CallLLM[4. LLM Provider <br><i>Local Ollama / API</i>]
+CallLLM --> Present[5. Action & Presentation Layer]
+Present --> Choice{User Decision?}
+Choice -->|Accept [Y]| Commit[Execute `git commit -m "..."`] --> Success([Commit Created!])
+Choice -->|Edit [E]| OpenEditor[Open `$EDITOR` with suggestion] --> Commit
+Choice -->|Reject [N]| Abort([Operation Aborted])
+style Start fill:#4A90E2,stroke:#333,stroke-width:2px,color:#fff
+style Success fill:#7ED321,stroke:#333,stroke-width:2px,color:#fff
+style Abort fill:#D0021B,stroke:#333,stroke-width:2px,color:#fff
+
